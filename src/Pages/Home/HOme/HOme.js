@@ -1,19 +1,18 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
-import DaiTitle from '../../Shared/DaiTitle/DaiTitle';
+import PageTitle from '../../Shared/PageTitle/PageTitle';
 import Banner from '../Banner/Banner';
-import Exparts from '../Exparts/Exparts';
+import Experts from '../Experts/Experts';
 import Services from '../Services/Services';
 
-const HOme = () => {
+const Home = () => {
     return (
-        <div>
-            <DaiTitle title='Home'></DaiTitle>
-         <Banner></Banner>   
-       <Services></Services>
-       <Exparts></Exparts>
-        </div>
+        <>
+            <PageTitle title="Home"></PageTitle>
+            <Banner></Banner>
+            <Services></Services>
+            <Experts></Experts>
+        </>
     );
 };
 
-export default HOme;
+export default Home;

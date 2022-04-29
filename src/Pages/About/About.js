@@ -1,11 +1,12 @@
 import React from 'react';
-import DaiTitle from '../Shared/DaiTitle/DaiTitle';
+import PageTitle from '../Shared/PageTitle/PageTitle';
+
 
 const About = () => {
     return (
         <div>
-            <DaiTitle title='About'></DaiTitle>
-           <h1>this is about</h1> 
+            <PageTitle title="About"></PageTitle>
+            <h2>This is About us</h2>
         </div>
     );
 };
